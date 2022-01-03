@@ -24,7 +24,7 @@ print(datetime_obj.time())
 
 
 #strptime() - converts string to daytime objects
-date_string = "01 January, 2022"
+date_string = "11 January, 2022"
 date_object = dt.datetime.strptime(date_string, "%d %B, %Y")
 
 print("Date object:", date_object)
