@@ -3,7 +3,7 @@ ip = [1, 2, 3, 4, 5, 6]
 
 '''
 
-1. swap
+1. swaping elements 
 
 '''
 

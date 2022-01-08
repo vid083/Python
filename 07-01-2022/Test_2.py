@@ -48,4 +48,8 @@ third = a.index(3)
 print(third)
 
 print(len(a))
-
+print(a[0:3])
+print(a[3:6])
+print(a[0:2])
+print(a[2:4])
+print(a[4:6])
