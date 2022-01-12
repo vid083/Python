@@ -1,6 +1,7 @@
 fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
 vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
  
+# list in list
 dirty_dozen = [fruits, vegetables]
 
 print(dirty_dozen)

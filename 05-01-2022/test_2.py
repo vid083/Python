@@ -18,7 +18,7 @@ for i in range(len(ip)):
     if ip[i] == a:
         res = "yes"
         index_value = i
-        break
+        # break
     
 print(res)
 print(index_value)

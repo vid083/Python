@@ -2,9 +2,11 @@ words = ['food' , 'shelter', 'cloths']
 
 import random
 
+# choosing a random word from list
 chosen_word = random.choice(words)
 print("chosen_word : ",chosen_word)
 
+# displaying dashes equilent to len of word
 display = []
 for _ in range(len(chosen_word)):
     display += "_"
@@ -18,6 +20,7 @@ while not end_of_game:
     for l in range(len(chosen_word)):
         if guess == chosen_word[l]:
             display[l] = guess
+            print(display[l])
     print(display)
 
     if '_' not in display:

@@ -8,8 +8,8 @@ student_scores = {
 
 student_grades = {}
 
-for student in student_scores:
-    score = student_scores[student]
+for student in student_scores:  # for keys in dict:
+    score = student_scores[student] # values = dict[keys]
     
     if score > 90:
         student_grades[student] = "Oustanding"

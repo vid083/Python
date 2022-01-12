@@ -9,9 +9,9 @@ a = [[1,2,3],
 #        [8,9,7]]
 
 1. 1st for loop - for inner arrays - i
-2. 2nd for loop - for each element - j
-3. a[0][0]   a[0][1]  a[0][2] --> a[0][1]  a[0][2]  a[0][0]
-4. a[1][0]   a[1][1]  a[1][2]
+
+ a[0][0]   a[0][1]  a[0][2] --> a[0][1]  a[0][2]  a[0][0]
+ a[1][0]   a[1][1]  a[1][2]
 '''
 op = []
 for i in range(len(a)):
@@ -20,6 +20,6 @@ for i in range(len(a)):
         result = a[i][1:] + a[i][:1]
         op.append(result)
     else:
-        result = a[i][2:] + a[i][0:2]
+        result = a[i][2:] + a[i][:2]
         op.append(result)
 print(op)     

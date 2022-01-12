@@ -15,3 +15,8 @@ for i in range(0, len(a), n):
 print(op)
 
 
+'''
+i=0; b=a[0:2]
+i=2; b=a[2:4]
+i=4; b=a[4:6]
+'''

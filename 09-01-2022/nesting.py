@@ -7,7 +7,8 @@ travel_log = {
 
 # Nesting Dictionary in a Dictionary
 travel_log = {
-    "France": {"cities_visted": ["Paris", "Lille", "Dijon"], "total_visits": 12},
+    "France": {"cities_visted": ["Paris", "Lille", "Dijon"], 
+    "total_visits": 12},
     "Germany": ["Berlin", "Hamburg"]
 }
 
